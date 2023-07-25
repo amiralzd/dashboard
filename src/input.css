@@ -29,3 +29,77 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #search {outline: none;}
+
+
+
+.bordercustom{
+    border-bottom: 1px solid #ababab;
+}
+
+body{
+    background: #001845;
+}
+
+.bgnav{
+    background: #023e7d;
+}
+
+.svghv:hover :not(h3){
+    transition: all 0.2s ;
+    color: #fff;
+}
+
+.bghvr:hover{
+    transition: all 0.2s;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.svghvr:hover :not(h3){
+    transition: all 0.2s ;
+    color: #fff;
+}
+
+.svghvr:hover :not(svg){
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.brdtop{
+    border-top: 1px solid #fff;
+}
+
+
+.textcolor{
+    color: #b7b7b7;
+}
+
+
+
+
+
+.sidebarborderr{
+    /* position: relative;
+    display: block;
+    width: 40px!important;
+    padding: 0;
+    margin-left: 12px;
+    margin-right: 15px;
+    margin-top: 10px; */
+    flex-direction: column;
+    width: auto!important;
+    top: 530px;
+    margin: auto;
+}
+
