@@ -22,7 +22,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #search{
-    width: 352.5px;
+    width: auto;
     height: 45.6px;
     background: none;
     padding-left: 5px;
@@ -128,4 +128,39 @@ body{
     backdrop-filter: blur(15px);
     position: fixed;
     display: none;
+}
+
+
+
+
+
+.appboxdisplay{
+    display: block!important;
+}
+
+.appboxstyle{
+    width: 340.3px;
+    height: 356.8px;
+    background: #282736;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+
+.padding{
+    padding: 8px 16px;
+}
+
+
+
+
+.flexdirc{
+    flex-direction: column;
+}
+
+
+.mb{
+    margin: 0px 16.05px 4px;
 }

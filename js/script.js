@@ -44,3 +44,10 @@ function handleMenu2(){
     var sidebardisplay = document.getElementById("sidebar-card");
     sidebardisplay.classList.toggle ("sidebarShow");
 }
+
+
+
+function appbox(){
+    var x = document.getElementById("app-box");
+    x.classList.toggle("appboxdisplay");
+}
