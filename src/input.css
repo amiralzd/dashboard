@@ -22,7 +22,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #search{
-    width: auto;
+    width: 350px;
     height: 45.6px;
     background: none;
     padding-left: 5px;
@@ -49,11 +49,15 @@ body{
     color: #fff;
 }
 
+.bghvr{
+    border-radius: 10px;
+}
+
 .bghvr:hover{
     transition: all 0.2s;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+    
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -104,7 +108,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    height: 320px;
+    padding-bottom: 20px;
 }
 
 .stylel{
@@ -163,4 +168,38 @@ body{
 
 .mb{
     margin: 0px 16.05px 4px;
+}
+
+.bghover{
+    border-radius: 10px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.bghover:hover{
+    background: #777777;
+}
+
+.Notificationdisplay{
+    display: block !important;
+}
+
+.Notificationbox{
+    width: 384px;
+    height: 538.4;
+    background: #282736;
+    position: absolute;
+    left: 0;
+    border-radius: 10px;
+    display: none;
+}
+
+
+.bghoverr{
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.bghoverr:hover{
+    background: #777777;
 }

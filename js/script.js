@@ -51,3 +51,9 @@ function appbox(){
     var x = document.getElementById("app-box");
     x.classList.toggle("appboxdisplay");
 }
+
+
+function Notificationbox(){
+    var display = document.getElementById("Notification-box");
+    display.classList.toggle("Notificationdisplay");
+}
