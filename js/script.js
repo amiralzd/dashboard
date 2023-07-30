@@ -35,6 +35,11 @@ function handleMenu(){
     for (let i = 0; i < sidebarflex.length; i++) {
         sidebarflex[i].classList.toggle ("stylel")
     }
+
+    var y = document.getElementsByClassName("svg")
+    for (let i = 0; i < y.length; i++) {
+        y[i].classList.toggle("hidden")
+    }
 }
 
 
@@ -56,4 +61,41 @@ function appbox(){
 function Notificationbox(){
     var display = document.getElementById("Notification-box");
     display.classList.toggle("Notificationdisplay");
+}
+
+function myFunction() {
+    let element = document.body;
+    element.classList.toggle("dark");
+}
+
+function ProfileMenuDisplay(){
+    var menu = document.getElementById("userDropdown");
+    menu.classList.toggle("profiledisplay");
+}
+
+function sidebardropdown1(){
+    var x = document.getElementById("sidebar-dropdown1");
+    x.classList.toggle("displayshowsidebar");
+}
+
+function sidebardropdown2(){
+    var x = document.getElementById("sidebar-dropdown2");
+    x.classList.toggle("displayshowsidebar");
+}
+
+function sidebardropdown3(){
+    var x = document.getElementById("sidebar-dropdown3");
+    x.classList.toggle("displayshowsidebar");
+}
+
+function sidebardropdown4(){
+    var x = document.getElementById("sidebar-dropdown4");
+    x.classList.toggle("displayshowsidebar");
+}
+
+
+
+function sidebarhover(){
+    var x= document.getElementById("sidebar-container-hover");
+    x.classList.toggle("hoverrsidebar")
 }
